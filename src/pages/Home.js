@@ -1,11 +1,11 @@
 import React from "react";
-import { Subjects } from "../components/Subjects";
+import { SubjectData } from "../components/SubjectData";
 
 
 export default function Home() {
   return (
     <div className="mt-5">
-      <Subjects />
+      <SubjectData />
     </div>
   );
 }

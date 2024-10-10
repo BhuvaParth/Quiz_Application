@@ -2,8 +2,9 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
-import English from "./components/English";
-import Reactjs from "./components/Reactjs";
+import Python from "./components/Python";
+import Css from "./components/Css";
+import Angular from "./components/Angular";
 
 function App() {
   return (
@@ -11,8 +12,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/english" element={<English />} />
-        <Route path="/react" element={<Reactjs />} />
+        <Route path="/python" element={<Python />} />
+        <Route path="/css" element={<Css />} />
+        <Route path="/angular" element={<Angular />} />
       </Routes>
     </div>
   );
