@@ -23,16 +23,6 @@ To get a local copy of the project up and running, follow these steps:
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm (Node package manager)
-
-
-## Getting Started
-
-To get started with the Blog App, follow these steps:
-
-### Prerequisites
-
 - Node.js (v12 or above)
 - npm (Node Package Manager)
 
